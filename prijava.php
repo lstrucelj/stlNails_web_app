@@ -8,34 +8,17 @@ $baza->spojiDB();
 
 if(Sesija::dajKorisnika() != null ){
 	header("Location: http://localhost/zavrsni_rad/pocetna.php");
-	die();
-	// $korisnik = Sesija::dajKorisnika();
-	// $korisnicko_ime = $korisnik[korisnicko_ime];
-	// $tip_korisnika_id = $korisnik[id_tip];
-	// provjera if($tip_korisnika_id == 3){ pokazem npr gumb visible ili tak neš}
+	die();/*
+	$korisnik = Sesija::dajKorisnika();
+	$korisnicko_ime = $korisnik[korisnicko_ime];
+	$tip_korisnika_id = $korisnik[id_tip];
 
-	/*
-	if ($tip_korisnika_id == 3) {
+	if($tip_korisnika_id == 3){
         $class = 'show';
-    } else {
+    }
+    else {
         $class = 'hidden';
-    }
-
-    ovo je php
-
-    html gumb koji hoću prikazat samo adminu
-
-    <input type="submit" class="<?php echo $class; ?>" value="Download Results" name="DownloadResults">
-
-    u css sakrijem
-
-    .hidden{
-        visibility="hidden";
-    }
-    .show{
-        visibility="visible";
-    }
-	*/
+    }*/
 }
 
 if(!empty($_POST)){
@@ -127,7 +110,7 @@ input{
     <i class="fa fa-home w3-xxlarge"></i>
     <p>POČETNA</p>
   </a>
-  <a href="prijava.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-black">
+  <a href="prijava.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-black" >
     <i class="fa fa-user w3-xxlarge"></i>
     <p>PRIJAVA</p>
   </a>
@@ -135,18 +118,26 @@ input{
     <i class="fa fa-arrow-circle-right w3-xxlarge"></i>
     <p>REGISTRACIJA</p>
   </a>
-  <a href="galerija.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>GALERIJA</p>
-  </a>
-  <a href="rezervacija.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-calendar-plus-o w3-xxlarge"></i>
-    <p>REZERVACIJA</p>
-    </a>
-  <a href="tablica.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-     <i class="fa fa-money w3-xxlarge"></i>
-     <p>CJENIK</p>
-  </a>
+
+
+  <?php
+    if(Sesija::dajKorisnika() != null ){
+      echo "<a href=\"galerija.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"odjava_gumb\">
+                  <i class=\"fa fa-eye w3-xxlarge\"></i>
+                  <p>GALERIJA</p>
+              </a>
+
+              <a href=\"rezervacija.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"odjava_gumb\">
+                    <i class=\"fa fa-calendar-plus-o w3-xxlarge\"></i>
+                  <p>REZERVACIJA</p>
+                  </a>
+                <a href=\"tablica.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"odjava_gumb\">
+                  <i class=\"fa fa-money w3-xxlarge\"></i>
+                  <p>CJENIK</p>
+                </a>";
+    }
+    ?>
+
   <a href="upit.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>KONTAKT</p>

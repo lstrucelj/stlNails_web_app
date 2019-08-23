@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="" />
+    <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galerija.php" beforeDir="false" afterPath="$PROJECT_DIR$/galerija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pocetna.php" beforeDir="false" afterPath="$PROJECT_DIR$/pocetna.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prijava.php" beforeDir="false" afterPath="$PROJECT_DIR$/prijava.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registracija.php" beforeDir="false" afterPath="$PROJECT_DIR$/registracija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rezervacija.php" beforeDir="false" afterPath="$PROJECT_DIR$/rezervacija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tablica.php" beforeDir="false" afterPath="$PROJECT_DIR$/tablica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upit.php" beforeDir="false" afterPath="$PROJECT_DIR$/upit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uredi.css" beforeDir="false" afterPath="$PROJECT_DIR$/uredi.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +28,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1OsckLjIe4nErHXPvGSEeRvaawX" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -64,6 +79,7 @@
       <workItem from="1566279642348" duration="24602000" />
       <workItem from="1566349712384" duration="243000" />
       <workItem from="1566351041444" duration="219000" />
+      <workItem from="1566374371564" duration="19039000" />
     </task>
     <servers />
   </component>
@@ -72,5 +88,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

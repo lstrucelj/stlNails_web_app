@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <?php
-
+include("baza.class.php");
+include("sesija.class.php");
+Sesija::kreirajSesiju();
+$baza = new Baza();
+$baza->spojiDB();
 ?>
 <html lang="hr">
 <head>
@@ -45,7 +49,7 @@ background: #222;
 }
 
 #podnozje{
-    margin-left:690px;
+    margin-left:700px;
     margin-top: 180px;
     margin-bottom:2px;
 }
@@ -82,26 +86,45 @@ background: #222;
     <i class="fa fa-home w3-xxlarge"></i>
     <p>POČETNA</p>
   </a>
-  <a href="prijava.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
+
+  <?php
+  if(Sesija::dajKorisnika() == null ){
+  echo "<a href=\"prijava.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"prijava_gumb\">
+    <i class=\"fa fa-user w3-xxlarge\"></i>
     <p>PRIJAVA</p>
-  </a>
-  <a href="registracija.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-arrow-circle-right w3-xxlarge"></i>
-    <p>REGISTRACIJA</p>
-  </a>
-  <a href="galerija.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>GALERIJA</p>
-  </a>
-  <a href="rezervacija.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-calendar-plus-o w3-xxlarge"></i>
-    <p>REZERVACIJA</p>
     </a>
-  <a href="tablica.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-money w3-xxlarge"></i>
-     <p>CJENIK</p>
-  </a>
+    <a href=\"registracija.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\">
+       <i class=\"fa fa-arrow-circle-right w3-xxlarge\"></i>
+       <p>REGISTRACIJA</p>
+     </a>";
+    }
+    else {
+    echo "<a href=\"odjava.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"odjava_gumb\">
+              <i class=\"fa fa-sign-out w3-xxlarge\"></i>
+              <p>ODJAVA</p>
+            </a>"
+            ;
+  }
+  ?>
+
+  <?php
+    if(Sesija::dajKorisnika() != null ){
+      echo "<a href=\"galerija.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"odjava_gumb\">
+                  <i class=\"fa fa-eye w3-xxlarge\"></i>
+                  <p>GALERIJA</p>
+              </a>
+
+              <a href=\"rezervacija.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"odjava_gumb\">
+                    <i class=\"fa fa-calendar-plus-o w3-xxlarge\"></i>
+                  <p>REZERVACIJA</p>
+                  </a>
+                <a href=\"tablica.php\" class=\"w3-bar-item w3-button w3-padding-large w3-hover-black\" id=\"odjava_gumb\">
+                  <i class=\"fa fa-money w3-xxlarge\"></i>
+                  <p>CJENIK</p>
+                </a>";
+    }
+    ?>
+
   <a href="upit.php" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>KONTAKT</p>
