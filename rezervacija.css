@@ -1,0 +1,16 @@
+#logo{
+    font-size: 80px;
+    margin-top: 15px;
+    margin-left: 70px;
+    font-family: 'Emilys Candy', cursive;
+    color: white;
+}
+
+#popravi {
+    height: 752px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: auto;
+    background: linear-gradient(mediumvioletred, rgba(141, 153, 174, 0.5)), url("./slike/nokti10.png") no-repeat fixed;
+}
