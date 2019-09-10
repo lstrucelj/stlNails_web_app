@@ -26,7 +26,7 @@ $result = $statement->fetchAll();
 
 <html lang="hr">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Rezervacija</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <sript src="https.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></sript>
