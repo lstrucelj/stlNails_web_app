@@ -26,7 +26,7 @@ $result = $statement->fetchAll();
 <head>
     <meta charset="utf-8">
     <title>Rezervacija</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <sript src="https.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></sript>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="JQUERY.js"></script>
@@ -35,7 +35,7 @@ $result = $statement->fetchAll();
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="uredi.css">
+    <link rel="stylesheet" type="text/css" href="css/uredi.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
@@ -43,8 +43,8 @@ $result = $statement->fetchAll();
     <script src="js/timeline.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/timeline.min.css" />
-    <link rel="stylesheet" type="text/css" href="rezervacija.css">
-    <link rel="stylesheet" type="text/css" href="termini.css">
+    <link rel="stylesheet" type="text/css" href="css/rezervacija.css">
+    <link rel="stylesheet" type="text/css" href="css/termini.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">

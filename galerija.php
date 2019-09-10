@@ -19,16 +19,14 @@ $baza->spojiDB();
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="uredi.css">
+    <link rel="stylesheet" type="text/css" href="css/uredi.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fullcalendar/fullcalendar.min.css" />
     <script src="fullcalendar/lib/jquery.min.js"></script>
-    <script src="fullcalendar/lib/moment.min.js"></script>
-    <script src="fullcalendar/fullcalendar.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="galerija.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/galerija.css">
 </head>
 
 <body class="w3-black">
