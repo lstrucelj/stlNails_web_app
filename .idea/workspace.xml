@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetch-event.php" beforeDir="false" afterPath="$PROJECT_DIR$/fetch-event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prijava.php" beforeDir="false" afterPath="$PROJECT_DIR$/prijava.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registracija.php" beforeDir="false" afterPath="$PROJECT_DIR$/registracija.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rezervacija.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablica.php" beforeDir="false" afterPath="$PROJECT_DIR$/tablica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uredi.css" beforeDir="false" afterPath="$PROJECT_DIR$/uredi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add-event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete-event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit-event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetch-event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/horizontal-timeline.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +85,16 @@
       <workItem from="1567187181633" duration="386000" />
       <workItem from="1567190467179" duration="61000" />
       <workItem from="1567973738649" duration="832000" />
-      <workItem from="1567975991043" duration="38088000" />
+      <workItem from="1567975991043" duration="38387000" />
     </task>
+    <task id="LOCAL-00001" summary="dovršavanje">
+      <created>1568127620081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568127620081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dovršavanje" />
+    <option name="LAST_COMMIT_MESSAGE" value="dovršavanje" />
   </component>
 </project>
