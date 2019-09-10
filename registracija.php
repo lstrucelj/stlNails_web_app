@@ -14,7 +14,7 @@ if(isset($_POST['registracija'])){
         //var_dump($_POST);
 
         if(!isset($_POST['ime']) || !isset($_POST['prezime']) || !isset($_POST['korIme']) || !isset($_POST['email']) || !isset($_POST['lozinka']) || !isset($_POST['lozinka_provjera']) || !isset($_POST['brojMob'])){
-            $poruka .= "Nisu uneseni svi podaci.<br />";
+            $poruka .= "Nisu uneseni svi podaci. ";
         }
         /*
         if(($_GET['firstName'])== null || ($_POST['lastName'])== null || ($_POST['userName'])==null || ($_POST['email'])== null || ($_POST['psw'])== null || ($_POST['psw2'])==null || ($_POST['phone'])==null){
@@ -32,51 +32,51 @@ if(isset($_POST['registracija'])){
             $id_tip = 1;
 
             if(empty($ime) || empty($prezime) || empty($korisnicko_ime) || empty($email) || empty($lozinka) || empty($potvrda)){
-                               $poruka .= "Nisu uneseni svi podaci.<br />";
+                               $poruka .= "Nisu uneseni svi podaci. ";
                          }
             else {
                 $upit="SELECT * FROM korisnici WHERE korisnicko_ime = '{$korisnicko_ime}'";
                 $res = $baza->selectDB($upit);
 
                 if(strcmp($lozinka, $potvrda) != 0){
-                    $poruka .= "Lozinke nisu jednake.<br />";
+                    $poruka .= "Lozinke nisu jednake. ";
                 }
                 $regex_lozinka = '/^(?=(?:.*[A-Z]){2,})(?=(?:.*[a-z]){2,})(?=(?:.*[0-9]){1,})\S{5,15}$/';
                 if(!preg_match($regex_lozinka, $lozinka)){
-                    $poruka .= "Lozinka nema barem 2 mala, 2 velika slova i jedan broj ili nije duljine od 5-15 znakova.<br />";
+                    $poruka .= "Lozinka nema barem 2 mala, 2 velika slova i jedan broj ili nije duljine od 5-15 znakova. ";
                 }
                 if ($res->num_rows == 1) {
-                    $poruka .= "Korisnicko ime je zauzeto!.<br />";
+                    $poruka .= "Korisnicko ime je zauzeto!. ";
                 }
 
                 $upit="SELECT * FROM korisnici WHERE email = '{$email}' LIMIT 1";
                 $res2 = $baza->selectDB($upit);
                 if ($res2 != null){
                 if ($res2->num_rows == 1) {
-                    $poruka .= "Email je zauzet!.<br />";
+                    $poruka .= "Email je zauzet!. ";
                 }
                 }
 
                 $mail = '/^\b[a-z0-9._%-]+@[a-z0-9.-]+\.[a-z]{2,4}\b$/i';
                 if(!preg_match($mail, $email)){
-                    $poruka .= "Email je neispravnog formata.<br />";
+                    $poruka .= "Email je neispravnog formata. ";
                 }
 
                 $regex_znak = '/[\\()\'{}!#"\/]/';
                 if(preg_match($regex_znak, $ime)){
-                    $poruka .= "Ime ne smije sadrzavati nedozvoljene znakove!<br />";
+                    $poruka .= "Ime ne smije sadrzavati nedozvoljene znakove! ";
                 }
                 if(preg_match($regex_znak, $prezime)){
-                    $poruka .= "Prezime ne smije sadrzavati nedozvoljene znakove!<br />";
+                    $poruka .= "Prezime ne smije sadrzavati nedozvoljene znakove! ";
                 }
                 if(preg_match($regex_znak, $korisnicko_ime)){
-                    $poruka .= "Korisnicko ime ne smije sadrzavati nedozvoljene znakove!<br />";
+                    $poruka .= "Korisnicko ime ne smije sadrzavati nedozvoljene znakove! ";
                 }
                 if(preg_match($regex_znak, $email)){
-                    $poruka .= "Email ne smije sadrzavati nedozvoljene znakove!<br />";
+                    $poruka .= "Email ne smije sadrzavati nedozvoljene znakove! ";
                 }
                 if(preg_match($regex_znak, $lozinka)){
-                    $poruka .= "Lozinka ne smije sadrzavati nedozvoljene znakove!<br />";
+                    $poruka .= "Lozinka ne smije sadrzavati nedozvoljene znakove! ";
                 }
                 if($poruka == ""){
                     $sql="INSERT INTO korisnici (korisnicko_ime, ime, prezime, email, lozinka, br_tel, id_tip) VALUES ('{$korisnicko_ime}', '{$ime}','{$prezime}','{$email}','{$lozinka}','{$telefon}',1)";
@@ -86,6 +86,10 @@ if(isset($_POST['registracija'])){
                 }
             }
         }
+        if($poruka != ""){
+                                //echo "<script type='text/javascript'>alert('$poruka');</script>";
+                                echo '<script type="text/javascript">alert("'.$poruka.'");</script>';
+                            }
     }
 }
 $baza->zatvoriDB();
@@ -224,13 +228,6 @@ color:black;
             <br>
             <input type="submit" id="posalji" name="registracija" value="REGISTRIRAJ SE"><br>
             </div>
-            <p id="poruka">
-                 <?php
-                 if (isset($poruka)) {
-                      echo $poruka;
-                 }
-                 ?>
-            </p>
 </div>
         </form>
 </div>

@@ -5,6 +5,7 @@ include("sesija.class.php");
 Sesija::kreirajSesiju();
 $baza = new Baza();
 $baza->spojiDB();
+$tip = Sesija::dajKorisnika()["id_tip"];
 ?>
 
 
@@ -13,6 +14,7 @@ $connect = new PDO("mysql:host=localhost;dbname=database", "root", "");
 $query = "SELECT t.datum, t.vrijeme, u.naziv, k.ime, k.prezime FROM termini t
           JOIN usluge u ON u.id = t.id_usluge
           JOIN korisnici k on k.id = t.id_korisnik
+          WHERE t.datum>DATE(now())
           ORDER BY t.datum, t.vrijeme ASC";
 
 $statement = $connect->prepare($query);
@@ -190,7 +192,11 @@ background: #222;
           <h2><?php echo date("d.m.Y", strtotime($row['datum']));?></h2>
           <p><?php echo $row["vrijeme"];?></p>
           <p><?php echo $row["naziv"];?></p>
-          <p><?php echo ($row["ime"]) . "  " . ($row["prezime"]); ?></p>
+          <?php
+            if($tip == 3){
+            echo ($row["ime"]) . "  " . ($row["prezime"]);
+            }
+          ?>
          </div>
         </div>
        <?php

@@ -15,6 +15,11 @@ if(!empty($_POST)){
     $korime = $_POST['korisnicko_ime'];
 	$p_lozinka = $_POST['prijava_lozinka'];
 
+	if(empty($korime) || empty($p_lozinka)){
+           $message = "Nisu uneseni podaci!";
+           echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+    else{
 	$rez = $baza->selectDB('SELECT * FROM korisnici WHERE korisnicko_ime = "' .$korime. '" AND lozinka = "' .$p_lozinka. '";');
 	if($rez->num_rows > 0){
 			$rez = $rez->fetch_array();
@@ -44,8 +49,14 @@ if(!empty($_POST)){
 					$baza->updateDB("UPDATE korisnici SET pokusaj={$broj_p} WHERE korisnicko_ime='{$korime}'");
 				}
 			}
+			else {
+			    $message = "Korisnik nije registriran!";
+                echo "<script type='text/javascript'>alert('$message');</script>";
+			}
+	}
 	}
 }
+
 ?>
 <html lang="hr">
 <head>

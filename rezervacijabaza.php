@@ -6,6 +6,7 @@ $datum = filter_input(INPUT_POST, 'datum');
 $vrijeme = filter_input(INPUT_POST, 'vrijeme');
 $usluga = filter_input(INPUT_POST, 'usluga');
 $korisnik = Sesija::dajKorisnika()["id"];
+$tip = Sesija::dajKorisnika()["id_tip"];
 if (!empty($datum)){
 if (!empty($vrijeme)){
 if (!empty($usluga)){
