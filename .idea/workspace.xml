@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galerija.php" beforeDir="false" afterPath="$PROJECT_DIR$/galerija.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pocetna.php" beforeDir="false" afterPath="$PROJECT_DIR$/pocetna.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetch-event.php" beforeDir="false" afterPath="$PROJECT_DIR$/fetch-event.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prijava.php" beforeDir="false" afterPath="$PROJECT_DIR$/prijava.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registracija.php" beforeDir="false" afterPath="$PROJECT_DIR$/registracija.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rezervacija.php" beforeDir="false" afterPath="$PROJECT_DIR$/rezervacija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rezervacija.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tablica.php" beforeDir="false" afterPath="$PROJECT_DIR$/tablica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upit.php" beforeDir="false" afterPath="$PROJECT_DIR$/upit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uredi.css" beforeDir="false" afterPath="$PROJECT_DIR$/uredi.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -80,6 +81,15 @@
       <workItem from="1566349712384" duration="243000" />
       <workItem from="1566351041444" duration="219000" />
       <workItem from="1566374371564" duration="19039000" />
+      <workItem from="1566576070025" duration="1360000" />
+      <workItem from="1566577454270" duration="1728000" />
+      <workItem from="1566850570410" duration="362000" />
+      <workItem from="1566850958966" duration="699000" />
+      <workItem from="1566902128952" duration="7579000" />
+      <workItem from="1567187181633" duration="386000" />
+      <workItem from="1567190467179" duration="61000" />
+      <workItem from="1567973738649" duration="832000" />
+      <workItem from="1567975991043" duration="38088000" />
     </task>
     <servers />
   </component>
@@ -94,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

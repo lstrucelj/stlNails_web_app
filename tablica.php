@@ -6,7 +6,6 @@ Sesija::kreirajSesiju();
 $baza = new Baza();
 $baza->spojiDB();
 ?>
-?>
 <html lang="hr">
 <head>
     <meta charset="UTF-8">
@@ -24,10 +23,6 @@ $baza->spojiDB();
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fullcalendar/fullcalendar.min.css" />
-    <script src="fullcalendar/lib/jquery.min.js"></script>
-    <script src="fullcalendar/lib/moment.min.js"></script>
-    <script src="fullcalendar/fullcalendar.min.js"></script>
 </head>
 
 <style>

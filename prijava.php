@@ -8,17 +8,7 @@ $baza->spojiDB();
 
 if(Sesija::dajKorisnika() != null ){
 	header("Location: http://localhost/zavrsni_rad/pocetna.php");
-	die();/*
-	$korisnik = Sesija::dajKorisnika();
-	$korisnicko_ime = $korisnik[korisnicko_ime];
-	$tip_korisnika_id = $korisnik[id_tip];
-
-	if($tip_korisnika_id == 3){
-        $class = 'show';
-    }
-    else {
-        $class = 'hidden';
-    }*/
+	die();
 }
 
 if(!empty($_POST)){

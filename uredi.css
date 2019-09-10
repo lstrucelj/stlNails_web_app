@@ -1,7 +1,6 @@
 #popravi{
     height: 752px; /* You must set a specified height */
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 900px;
     background: linear-gradient(mediumvioletred,rgba(141, 153, 174, 0.5)), url("./slike/nokti10.png") no-repeat fixed;
@@ -181,7 +180,6 @@
     border-width: 1.5px;
     font-weight: bold;
     color: black;
-    font-weight: bold;
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 16px;
 }
@@ -194,6 +192,7 @@
 .show{
     visibility: visible;
 }
+
 
 
 

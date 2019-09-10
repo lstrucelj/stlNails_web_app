@@ -32,8 +32,8 @@ if(isset($_POST['registracija'])){
             $id_tip = 1;
 
             if(empty($ime) || empty($prezime) || empty($korisnicko_ime) || empty($email) || empty($lozinka) || empty($potvrda)){
-                  $poruka .= "Nisu uneseni svi podaci.<br />";
-            }
+                               $poruka .= "Nisu uneseni svi podaci.<br />";
+                         }
             else {
                 $upit="SELECT * FROM korisnici WHERE korisnicko_ime = '{$korisnicko_ime}'";
                 $res = $baza->selectDB($upit);

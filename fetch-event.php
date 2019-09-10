@@ -4,6 +4,7 @@
     $json = array();
     $sqlQuery = "SELECT * FROM tbl_events ORDER BY id";
 
+
     $result = mysqli_query($conn, $sqlQuery);
     $eventArray = array();
     while ($row = mysqli_fetch_assoc($result)) {
