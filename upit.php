@@ -146,7 +146,7 @@ background: #222;
     </div><br>
     <p>Za dodatna pitanja kontaktirajte me u nastavku: </p>
 
-    <form action="/action_page.php" target="_blank" style="margin-bottom:-9%">
+    <form target="_blank" style="margin-bottom:-9%">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Ime i prezime" required name="Name"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Naslov" required name="Subject"></p>
