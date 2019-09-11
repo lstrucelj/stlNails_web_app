@@ -46,7 +46,7 @@ if(!empty($_POST)){
                     echo "<script type='text/javascript'>alert('$message');</script>";
 				}else{
 					$broj_p=$broj_p+1;
-					$baza->updateDB("UPDATE korisnici SET pokusaj={$broj_p} WHERE korisnicko_ime='{$korime}'");
+					$baza->updateDB("UPDATE korisnici SET pokusaj='{$broj_p}' WHERE korisnicko_ime='{$korime}'");
 				}
 			}
 			else {
@@ -56,6 +56,7 @@ if(!empty($_POST)){
 	}
 	}
 }
+
 
 ?>
 <html lang="hr">

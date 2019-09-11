@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/ER model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/Use case diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prijava.php" beforeDir="false" afterPath="$PROJECT_DIR$/prijava.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +83,7 @@
       <workItem from="1567187181633" duration="386000" />
       <workItem from="1567190467179" duration="61000" />
       <workItem from="1567973738649" duration="832000" />
-      <workItem from="1567975991043" duration="45952000" />
+      <workItem from="1567975991043" duration="52004000" />
     </task>
     <task id="LOCAL-00001" summary="dovršavanje">
       <created>1568127620081</created>
