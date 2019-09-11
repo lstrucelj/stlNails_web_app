@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="" />
+    <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/odjava.php" beforeDir="false" afterPath="$PROJECT_DIR$/odjava.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +81,7 @@
       <workItem from="1567190467179" duration="61000" />
       <workItem from="1567973738649" duration="832000" />
       <workItem from="1567975991043" duration="63030000" />
+      <workItem from="1568220319901" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="dovršavanje">
       <created>1568127620081</created>

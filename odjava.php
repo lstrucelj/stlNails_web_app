@@ -5,3 +5,4 @@ Sesija::obrisiSesiju();
 header("Location: prijava.php");
 die();
 ?>
+
