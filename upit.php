@@ -19,12 +19,12 @@ $baza->spojiDB();
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/pozadina.css">
 </head>
 
 <style>
 body, h1,h2,h3,h4,h5,h6 {
-font-family: "Montserrat",
-sans-serif
+font-family: "Montserrat", sans-serif
 }
 .w3-row-padding img {
 margin-bottom: 12px
@@ -36,11 +36,8 @@ background: #222;
 }
 
 #popravi{
-     /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    background: linear-gradient(mediumvioletred,rgba(141, 153, 174, 0.5)), url("nokti10.png") no-repeat fixed;
+    background: linear-gradient(mediumvioletred,rgba(141, 153, 174, 0.5)), url("./slike/nokti10.png") no-repeat fixed;
 }
 
 .w3-content{

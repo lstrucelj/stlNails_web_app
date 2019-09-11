@@ -3,7 +3,7 @@
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 900px;
-    background: linear-gradient(mediumvioletred,rgba(141, 153, 174, 0.5)), url("./slike/nokti10.png") no-repeat fixed;
+    background: linear-gradient(mediumvioletred,rgba(141, 153, 174, 0.5)), url("../slike/nokti10.png") no-repeat fixed;
 }
 
 #tekstpocetna{

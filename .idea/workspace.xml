@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ad352a42-34e0-4d1d-9aa5-9b20cf297f84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registracija.php" beforeDir="false" afterPath="$PROJECT_DIR$/registracija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/uredi.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/uredi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/galerija_link.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/galerija_link.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/kontakt.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/kontakt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/početna stranica_neprijavljen.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/početna stranica_neprijavljen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/početna stranica_prijavljen.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/početna stranica_prijavljen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/prijava.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/prijava.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/registracija.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/registracija.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/rezervacija.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/rezervacija.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/rezervacija_korisnik.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/rezervacija_korisnik.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dokumentacija/slike aplikacije/rezerviraj.png" beforeDir="false" afterPath="$PROJECT_DIR$/dokumentacija/slike aplikacije/rezerviraj.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galerija.php" beforeDir="false" afterPath="$PROJECT_DIR$/galerija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rezervacija.php" beforeDir="false" afterPath="$PROJECT_DIR$/rezervacija.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rezervacijabaza.php" beforeDir="false" afterPath="$PROJECT_DIR$/rezervacijabaza.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/upit.php" beforeDir="false" afterPath="$PROJECT_DIR$/upit.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +94,7 @@
       <workItem from="1567187181633" duration="386000" />
       <workItem from="1567190467179" duration="61000" />
       <workItem from="1567973738649" duration="832000" />
-      <workItem from="1567975991043" duration="57568000" />
+      <workItem from="1567975991043" duration="62363000" />
     </task>
     <task id="LOCAL-00001" summary="dovršavanje">
       <created>1568127620081</created>
